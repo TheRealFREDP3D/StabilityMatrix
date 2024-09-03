@@ -302,7 +302,7 @@ jobs:
 
       # Downloads all previous artifacts to the current working directory
       - name: Download Artifacts
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4.1.7
         
       # Zip each build (except macos which is already dmg)
       - name: Zip Artifacts
@@ -348,7 +348,7 @@ jobs:
 
       # Downloads all previous artifacts to the current working directory
       - name: Download Artifacts
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4.1.7
 
       # Zip each build (except macos which is already dmg)
       - name: Zip Artifacts
@@ -430,7 +430,7 @@ jobs:
 
       # Downloads all previous artifacts to the current working directory
       - name: Download Artifacts
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4.1.7
       
       # Zip each build (except macos which is already dmg)
       - name: Zip Artifacts
